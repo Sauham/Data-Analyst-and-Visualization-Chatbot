@@ -1,52 +1,48 @@
-Data Analyst and Visualization Chatbot
+# Data Analyst and Visualization Chatbot
 
-Overview
+A chatbot that enables users to upload datasets, analyze data, and visualize insights using an interactive interface.
 
-This project is a Streamlit-based Data Analyst Agent that allows users to upload datasets, ask AI-driven questions about the data, and generate visualizations. It supports structured (CSV, Excel) and unstructured (PDF, DOCX) data.
+## Features
+- Upload and analyze datasets (CSV, TXT, DOCX, PDF, etc.).
+- Ask queries regarding uploaded data and get instant responses.
+- Generate visualizations based on selected data attributes.
 
-Features
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sauham/Data-Analyst-and-Visualization-Chatbot.git
+   cd Data-Analyst-and-Visualization-Chatbot
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the application:
+   ```sh
+   python app.py
+   ```
 
-File Upload: Supports CSV, Excel, PDF, and DOCX formats.
+## Usage
+- Upload a dataset.
+- Ask questions related to the dataset.
+- Generate visualizations by selecting appropriate parameters.
 
-AI-Powered Analysis: Users can ask questions related to the uploaded data.
+## Screenshots
+### Chatbot Interface
+![Chatbot Interface](Chatbot%201.png)
 
-Data Visualization: Provides bar charts for better insights.
+### Data Visualization
+![Data Visualization](chatbot%202.png)
 
-Installation
+## Technologies Used
+- Python
+- Flask
+- Pandas
+- Matplotlib
+- OpenAI API
 
-Clone the repository and install dependencies:
+## License
+This project is licensed under the MIT License.
 
-pip install -r requirements.txt
-
-Usage
-
-Run the application using:
-
-streamlit run app.py
-
-Requirements
-
-streamlit
-
-pandas
-
-numpy
-
-matplotlib
-
-seaborn
-
-pytesseract
-
-pdfplumber
-
-python-docx
-
-transformers
-
-Screenshots
-
-License
-
-This project is open-source and available under the MIT License.
-
+## Author
+Developed by [Sauham](https://github.com/Sauham).
