@@ -28,11 +28,9 @@ A chatbot that enables users to upload datasets, analyze data, and visualize ins
 - Generate visualizations by selecting appropriate parameters.
 
 ## Screenshots
-### Chatbot Interface
-![Chatbot Interface](Chatbot%201.png)
+![Chatbot Interface](https://raw.githubusercontent.com/Sauham/Data-Analyst-and-Visualization-Chatbot/main/Chatbot%201.png)
 
-### Data Visualization
-![Data Visualization](chatbot%202.png)
+![Data Visualization](https://raw.githubusercontent.com/Sauham/Data-Analyst-and-Visualization-Chatbot/main/chatbot%202.png)
 
 ## Technologies Used
 - Python
